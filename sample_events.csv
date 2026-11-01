@@ -1,0 +1,10 @@
+TimeCreated,MachineName,Id,UserName,CommandLine
+2026-10-01T09:00:00+08:00,FICT-LAB-ALPHA,4688,FICT\student_demo,powershell.exe -NoProfile Get-Date
+2026-10-01T09:01:00+08:00,FICT-LAB-ALPHA,4688,FICT\student_demo,powershell.exe -enc SIMULATED_NOT_BASE64
+2026-10-01T09:02:00+08:00,FICT-LAB-BETA,4688,FICT\analyst_demo,powershell.exe SIMULATED_TEXT_ONLY Invoke-WebRequest https://example.invalid/demo
+2026-10-01T09:03:00+08:00,FICT-LAB-BETA,4104,FICT\analyst_demo,SIMULATED_TEXT_ONLY FromBase64String
+2026-10-01T09:04:00+08:00,FICT-LAB-GAMMA,4688,FICT\student_demo,powershell.exe -w hidden SIMULATED_TEXT_ONLY
+2026-10-01T09:05:00+08:00,FICT-LAB-GAMMA,4688,FICT\student_demo,powershell.exe -EncodedCommand SIMULATED_NOT_BASE64 -WindowStyle Hidden
+2026-10-01T09:06:00+08:00,FICT-LAB-DELTA,4688,FICT\analyst_demo,powershell.exe -enc SIMULATED_NOT_BASE64 DownloadString FromBase64String -w hidden
+2026-10-01T09:07:00+08:00,FICT-LAB-DELTA,4688,FICT\analyst_demo,notepad.exe
+
