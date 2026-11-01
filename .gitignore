@@ -1,0 +1,7 @@
+/config.php
+/.vscode/
+/.idea/
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
